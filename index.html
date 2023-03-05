@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!-- Link Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Link Box-Icons-->
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+    <!-- Fonts-Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./assets/sass/style.css">
+</head>
+<body> 
+    
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="logo">
+                <a href="#home">Shop</a>
+            </div>
+
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="navbar-link active-link">
+                            <i class="fas fa-home nav-icon"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#new" class="navbar-link">
+                            <i class="fas fa-tag"></i>
+                            <span>New</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#collection" class="navbar-link">
+                            <i class="fas fa-compass"></i>
+                            <span>Collection</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#products" class="navbar-link">
+                            <i class="fas fa-tshirt"></i>
+                            <span>Products</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="dark-light">
+                <i class="bx bx-moon moon"></i>
+                <i class="bx bx-sun sun"></i>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- Home -->
+        <section class="home section" id="home">
+            <div class="home-container">
+
+                <div class="home-data">
+
+                    <h1 class="home-title">New Clothing <br> Collection</h1>
+
+                    <p class="home-description">
+                        the new collection of clothing from <br> the best brands this year.
+                    </p>
+
+                    <a href="#new" class="button-link">
+                        Explore <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+                <div class="home-images">
+                    <img src="./assets/images/pexels-ivan-oboleninov-2916814.jpg" alt="">
+                    <img src="./assets/images/pexels-quang-anh-ha-nguyen-884979.jpg" alt="">
+                </div>
+
+            </div>
+        </section>
+        <!-- New -->
+        <section class="new section" id="new">
+            <h2 class="section-title">
+                New Categories
+            </h2>
+            <div class="new-container">
+
+                <article class="new-card">
+                    <img src="./assets/images/pexels-simon-robben-977796.jpg" alt="" class="new-img">
+                    <a href="#" class="new-link">
+                        <div class="new-data">
+                            <h2 class="new-title">
+                                Pants & Jackets
+                            </h2>
+                            <span class="new-subtitle">
+                                Winter Collection
+                            </span>
+                        </div>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </article>
+
+                <article class="new-card">
+                    <img src="./assets/images/pexels-bogdan-glisik-1661471.jpg" alt="" class="new-img">
+                    <a href="#" class="new-link">
+                        <div class="new-data">
+                            <h2 class="new-title">
+                                Coats & Coat sets
+                            </h2>
+                            <span class="new-subtitle">
+                                Winter Collection
+                            </span>
+                        </div>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </article>
+                   
+                <article class="new-card">
+                    <img src="./assets/images/pexels-ali-pazani-2584278.jpg" alt="" class="new-img">
+                    <a href="#" class="new-link">
+                        <div class="new-data">
+                            <h2 class="new-title">
+                                Sweaters & pants
+                            </h2>
+                            <span class="new-subtitle">
+                                Winter Collection
+                            </span>
+                        </div>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </article>
+
+            </div>
+        </section>
+        <!-- Collection -->
+        <section class="collection" id="collection">
+            <div class="collection-container">
+
+                <div class="collection-explore">
+                    <div class="collection-data-men">
+                        <h2 class="collection-title">
+                            Men <br>
+                            Collection
+                        </h2>
+                        <a href="#" class="button-link">
+                            Explore Clothes <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <img src="./assets/images/pexels-omar-lópez-1192601.jpg" alt="">
+                </div>
+
+                <div class="collection-explore">
+                    <img src="./assets/images/pexels-ali-pazani-2887766.jpg" alt="">
+
+                    <div class="collection-data-women">
+                        <h2 class="collection-title">
+                            Women <br>
+                            Collection
+                        </h2>
+                        <a href="#" class="button-link">
+                            Explore Clothes <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+        <!-- Products -->
+        <section class="products" id="products">
+            <h2 class="section-title">Best Products</h2>
+            <div class="products-container swiper">
+                <div class="swiper-wrapper">
+
+                    <article class="products-card swiper-slide">
+                        <img src="./assets/images/pexels-amid-mahdaviani-5474616.jpg" alt="" class="products-img">
+                        <h2 class="products-title">Gotland black jacket</h2>
+                        <span class="products-price">$89.99</span>
+                    </article>
+
+                    <article class="products-card swiper-slide">
+                        <img src="./assets/images/pexels-juliana-stein-2099205.jpg" alt="" class="products-img">
+                        <h2 class="products-title">Classic pullover</h2>
+                        <span class="products-price">$34.99</span>
+                    </article>
+
+                    <article class="products-card swiper-slide">
+                        <img src="./assets/images/pexels-efigie-lima-marcos-10538389.jpg" alt="" class="products-img">
+                        <h2 class="products-title">adidas sports pajamas</h2>
+                        <span class="products-price">$69.99</span>
+                    </article>
+
+                </div>
+                <div class="swiper-button-next">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="fas fa-arrow-left"></i>
+                </div>
+            </div>
+        </section>
+        <!-- brand -->
+        <section class="brand">
+            <h2 class="section-title">Brands We Sell</h2>
+            <div class="brand-container">
+                <img src="./assets/images/nike-4-logo-svg-vector.svg" alt="" class="brand-img">
+                <img src="./assets/images/Adidas_Logo.svg" alt="" class="brand-img">
+                <img src="./assets/images/puma-logo-logo-svgrepo-com.svg" alt="" class="brand-img">
+                <img src="./assets/images/Reebok_2019_logo.svg" alt="" class="brand-img">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+                <div class="footer-container">
+                    <div class="footer-header">
+    
+                        <a href="#" class="footer-logo">
+                            Shop
+                        </a>
+    
+                        <p class="footer-description">
+                            committed to bringing you the best clothing form popular brands.
+                        </p>
+    
+                    </div>
+    
+                    <div class="footer-content">
+    
+                        <div>
+                            <h3 class="footer-title">Company</h3>
+                            <ul class="footer-links">
+                                <li>
+                                    <a href="#" class="footer-link">Shop</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-link">Category</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-link">Contact info</a>
+                                </li>
+                            </ul>
+                        </div>
+    
+                        <div>
+                            <h3 class="footer-title">Blog</h3>
+                            <ul class="footer-links">
+                                <li>
+                                    <a href="#" class="footer-link">Events</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-link">Popular news</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-link">Recent news</a>
+                                </li>
+                            </ul>
+                        </div>
+    
+                        <div>
+                            <h3 class="footer-title">Office</h3>
+                            <p class="footer-information">Monday - Saturday <br> 9AM - 10PM</p>
+                        </div>
+    
+                        <div>
+                            <h3 class="footer-title">Contact us</h3>
+                            <ul class="footer-social">
+                                <a href="#" class="footer-social-link" target="_blank">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="#" class="footer-social-link" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="footer-social-link" target="_blank">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </ul>
+                        </div>
+    
+                    </div>
+    
+                    <div class="footer-info">
+                        <span class="footer-copy">
+                            &#169; shop. All rigths reserved
+                        </span>
+                        
+                        <a href="#" class="footer-privacuy">
+                            Terms & Conditions
+                        </a>
+                    </div>
+    
+                </div>
+    </footer>
+
+    <!-- Scroll Up -->
+    <div class="scroll-up" id="scroll-up">
+        <a href="#home">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+    
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Swiper Js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Link javascript -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
