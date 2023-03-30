@@ -1,4 +1,4 @@
-// Color changer
+// Dark mode toggle switch
 const body = document.querySelector("body");
 const modeToggle = document.querySelector(".dark-light");
 
@@ -7,7 +7,7 @@ modeToggle.addEventListener("click", ()=> {
     modeToggle.classList.toggle("active");
 });
 
-// Hamburger Navbar
+// Opening and closing the navigation menu
 const ham = document.querySelector(".hamburger");  
 const nav = document.querySelector(".navbar");
 
@@ -16,7 +16,7 @@ ham.addEventListener("click", ()=> {
     nav.classList.toggle("active");
 });
 
-// Scroll
+// Adds an "active-link" class to the web page navigation bar navigation link as the user scrolls through each section.
 const hdr = document.querySelector(".header");
 const goTop = document.querySelector(".scroll-up");
 
@@ -56,7 +56,7 @@ let swiperProducts = new Swiper(".products-container", {
   });
 
 
-// Navbar Active-link
+// Adds an "active-link" class to the web page navigation bar navigation link as the user scrolls through each section.
 const sections = document.querySelectorAll('section[id]')
 
 const scrollActive = () => {

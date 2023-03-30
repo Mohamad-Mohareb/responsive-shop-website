@@ -7,6 +7,7 @@
     list-style-type: none;
 }
 
+// Variables
 :root {    
     // Variable Font-Family
     --font-body: 'Lora', serif;
@@ -34,6 +35,7 @@
     --font-medium: 500;
 }
 
+// Dark mode
 body.dark {
     // Variable Color
     --color-body: #18191A;
@@ -63,6 +65,7 @@ img {
     height: auto;
 }
 
+// Scrollbar
 ::-webkit-scrollbar {
     width: .6rem;
     border-radius: .5rem;
@@ -78,28 +81,33 @@ img {
     }
 }
 
+// Flexbox center
 %flex-c {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+// Flexbox space-between
 %flex-sb {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+// Container
 %container {
     max-width: 1600px;
     padding: 0 100px;
     margin: 0 auto;
 }
 
+// Section
 %section {
     padding: 6.25rem 0;
 }
 
+// Button-link 
 %button-link {
     color: var(--color-title);
     font-weight: var(--font-medium);
@@ -108,6 +116,7 @@ img {
     column-gap: .5rem;
 }
 
+// Section-title
 %section-title {
     font-size: var(--font-size-h2);
     font-size: 30px;
@@ -625,6 +634,7 @@ img {
 }
 
 @media screen and (min-width: 1124px) {
+    // Variables
     :root {
         // Variable Font-Size
         --font-size-h1: 2.25rem;
@@ -636,10 +646,12 @@ img {
         --font-size-normal: 1rem;
     }
     
+    // Section-title
     %section-title {
         margin-bottom: 4rem;
     }
 
+    // Section
     %section {
         padding: 7rem 0;
     }
@@ -647,10 +659,12 @@ img {
 
 @media screen and (max-width: 992px) {
 
+    // Container
     %container {
         padding: 0 50px;
     }
 
+    // Products
     .products {        
         .products-container {
             width: 300px;
@@ -659,10 +673,12 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+    // Container
     %container {
         padding: 0 50px;
     }
 
+    // Header 
     .header {
         .container {
             .hamburger {
@@ -708,6 +724,7 @@ img {
         }
     }
 
+    // Collection
     .collection {
         .collection-container {
             .collection-explore {    
@@ -724,10 +741,12 @@ img {
 }
 
 @media screen and (max-width: 600px) {
+    // Container
     %container {
         padding: 0 15px;
     }
 
+    // Header
     .header {
         height: 60px;
         line-height: 60px;
@@ -744,6 +763,7 @@ img {
         }
     }
 
+    // Home
     .home {
         .home-container {
             flex-wrap: wrap;
@@ -769,6 +789,7 @@ img {
         }
     }
 
+    // New
     .new {
         .new-container {
             .new-card {
@@ -784,6 +805,7 @@ img {
         }
     }
 
+    // Collection
     .collection {
         .collection-container {
             row-gap: 3rem;
@@ -806,6 +828,7 @@ img {
         }
     }
 
+    // Brand
     .brand {
         .brand-container {
             display: flex;
@@ -817,6 +840,7 @@ img {
         }
     }
 
+    // Footer
     .footer {
         .footer-container {
             flex-direction: column;
@@ -838,6 +862,7 @@ img {
         }
     }
 
+    // Scroll-up 
     .scroll-up {
         bottom: 15px;
         right: 15px;
