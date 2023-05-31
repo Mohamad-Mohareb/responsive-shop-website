@@ -8,12 +8,19 @@ modeToggle.addEventListener("click", ()=> {
 });
 
 // Opening and closing the navigation menu
-const ham = document.querySelector(".hamburger");  
-const nav = document.querySelector(".navbar");
+const BtnMenu = document.querySelector('.hamburger');
+      navMenu = document.querySelector('.navbar');
 
-ham.addEventListener("click", ()=> {
-    ham.classList.toggle("active");
-    nav.classList.toggle("active");
+BtnMenu.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+    BtnMenu.classList.toggle('active');
+});
+
+navMenu.addEventListener('click', (event) => {
+  if (event.target.tagName === 'A') {
+    navMenu.classList.remove('active');
+    BtnMenu.classList.remove('active');
+  }
 });
 
 // Adds an "active-link" class to the web page navigation bar navigation link as the user scrolls through each section.
@@ -23,12 +30,12 @@ const goTop = document.querySelector(".scroll-up");
 window.addEventListener("scroll", ()=> {
     if (document.documentElement.scrollTop > 20) {
         hdr.classList.add("sticky");
-        nav.classList.add("sticky");
+        navMenu.classList.add("sticky");
         goTop.classList.add("show-scroll");
     }
     else {
         hdr.classList.remove("sticky");
-        nav.classList.remove("sticky");
+        navMenu.classList.remove("sticky");
         goTop.classList.remove("show-scroll");
     }
 });
